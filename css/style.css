@@ -1,0 +1,119 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Marck Script", cursive;
+    background-color: rgb(170, 225, 249);
+    color: rgb(54, 54, 90);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.container .heading img {
+    width: 60px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container .profile-image img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container .heading {
+    margin: 80px 0 30px;
+}
+
+.container .heading h1 {
+    margin-bottom: 5px;
+    font-size: 3.2vw;
+    font-weight: normal;
+}
+
+.container .profile-image {
+    margin-bottom: 20px;
+}
+
+.container .age-heading {
+    margin-bottom: 15px;
+}
+
+.container .age-heading h2 {
+    font-size: 2.4vw;
+    background-color: beige;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.container .dob h4 {
+    font-size: 1.6vw;
+    background-color: beige;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.gift-container {
+    margin-bottom: 60px;
+}
+
+.gift-container .gift-image {
+    background-image: url("../images/gift-2.jpeg");
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 8px solid rgb(54, 54, 90);
+    border-radius: 10px;
+}
+
+.gift-container h2, h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.gift-container h2 {
+    font-size: 2.2vw;
+    margin-bottom: 15px;
+}
+
+.gift-container h3 {
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+.gift-container #birthday-crakers:hover {
+    background-image: url(../images/source.gif);
+}
+
+.gift-container #celebration-image:hover {
+    background-image: url(../images/d009678eb5b1658468704f51bfc11173.gif);
+}
+
+.gift-container #smile-image:hover {
+    background-image: url(../images/happy-birthday-gif-animated-images-2023.gif);
+}
+
+.footer {
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    padding: 15px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color:rgb(10, 115, 115)
+}
+
